@@ -44,3 +44,4 @@ app-example
 
 # tailwind
 postcss.config.mjs
+config.bat
