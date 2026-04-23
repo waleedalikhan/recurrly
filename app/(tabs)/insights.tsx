@@ -4,12 +4,12 @@ import { SafeAreaView as RNSafeAreaView } from "react-native-safe-area-context";
 
 const SafeAreaView = styled(RNSafeAreaView);
 
-export default function App() {
+const Insights: React.FC = () => {
   return (
     <SafeAreaView className="flex-1 bg-background p-5">
-      <Text className="text-xl font-bold text-success">
-        Welcome to Recurily!
-      </Text>
+      <Text className="text-xl font-bold text-success">Insights</Text>
     </SafeAreaView>
   );
-}
+};
+
+export default Insights;
