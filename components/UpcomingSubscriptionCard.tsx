@@ -12,7 +12,7 @@ const UpcomingSubscriptionCard: React.FC<UpcomingSubscriptionCardProps> = ({
     <View className="upcoming-card">
       <View className="upcoming-row">
         <Image source={icon} className="upcoming-icon" />
-        <View className="upcoming-price-box">
+        <View>
           <Text className="upcoming-price">
             {formatCurrency(price, currency)}
           </Text>

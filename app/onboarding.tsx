@@ -11,3 +11,5 @@ const Onboarding: React.FC = () => {
     </SafeAreaView>
   );
 };
+
+export default Onboarding;
